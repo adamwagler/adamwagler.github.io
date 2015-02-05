@@ -2,4 +2,10 @@
 
 body {
     font-family: 'Raleway', sans-serif;   
+    background: -webkit-radial-gradient(center, ellipse cover, #E5E5BE 10%, #003973 90%); /* Chrome 10+, Saf5.1+ */
+    background:    -moz-radial-gradient(center, ellipse cover, #E5E5BE 10%, #003973 90%); /* FF3.6+ */
+    background:     -ms-radial-gradient(center, ellipse cover, #E5E5BE 10%, #003973 90%); /* IE10 */
+    background:      -o-radial-gradient(center, ellipse cover, #E5E5BE 10%, #003973 90%); /* Opera 11.10+ */
+    background:         radial-gradient(center, ellipse cover, #E5E5BE 10%, #003973 90%); /* W3C */
+        
 }
